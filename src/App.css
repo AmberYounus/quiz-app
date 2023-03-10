@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+  box-sizing: border-box;
+ font-family: 'Times New Roman', Times, serif;
+}
+.basic{
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  color: white;
+  bottom: 0;
+  background-color: rgb(255, 6, 255);
+  border: 2px solid rgb(11, 235, 11);
+  border-radius: 10px;
+ 
+}
+
+h2.usergreeting{
+  font-size: 18px;
+  color: blue;
+
+  border-style: solid;
+}
+.usergreeting{
+  border-style: solid;
+  border: 2px solid red;
+}
+
+.totalscore{
+  position: absolute;
+  color: white;
+  background-color: rgb(255, 6, 255);
+  border: 2px solid green;
+  bottom: 210px;
+  width: 50%;
+  height: 60px;
+  right: 350px;
+  border-radius: 10px;
+  text-align: center;
+}
+.incorrect{
+  width: 50%;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: rgba(255, 0, 0, 0.938);
+  border: 2px solid gray;
+  border-radius: 10px;
+}
+h3.correct{
+  width: 50%;
+  display: inline-block;
+  background-color: rgb(6, 168, 6);
+  border: 2px solid gray;
+  border-radius: 10px;
+}
+h1.question{
+  font-size: 24px;
+
+}
+button.btnAnswer:hover{
+  opacity: 0.8;
+}
+button.btnAnswer{
+  font-size: 18px;
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  background: green;
+
+  font-family: 'Times New Roman', Times, serif;
+
+  color: white;
+  margin-bottom: 10px ;
+  padding: 10px 10px;
+  border-radius: 2px;
+}
+button.btnAnswer:hover{
+  background-image: linear-gradient(red,  rgb(28, 0, 128));
+}
+
+
+
